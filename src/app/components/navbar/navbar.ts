@@ -9,4 +9,10 @@ import { RouterLink } from '@angular/router';
 })
 export class Navbar {
 
+  isLoggedIn: boolean = true;
+  isUserMenuOpen: boolean = false;
+
+  toggleMenu() {
+    this.isUserMenuOpen = !this.isUserMenuOpen;
+  }
 }

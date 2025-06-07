@@ -1,1 +1,17 @@
 <p>explore works!</p>
+
+<!-- interpolation -->
+{{name}}
+
+<!-- attribute-binding -->
+<input type="text" [value]="count">
+
+<!-- event-binding  -->
+<h1 class="text-3xl"> Count :{{count}}</h1>
+
+
+<button class="btn btn-primary" (click)="increment()">click </button>
+<button class="btn btn-primary" (click)="increment()">click </button>
+
+<!-- <button class="p-3 bg-[magenta] ml-3 rounded cursor-pointer hover:bg-fuchsia-400 dark:bg-fuchsia-900">click me
+    2</button> -->

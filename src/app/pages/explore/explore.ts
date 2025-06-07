@@ -8,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class Explore {
 
+  name:string="Aman Tiwari"
+  count:number=0;
+
+  increment()
+  {
+    this.count++;
+  }
+
+
+
 }
