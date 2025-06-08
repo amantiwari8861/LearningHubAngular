@@ -7,6 +7,7 @@ import { Explore } from './pages/explore/explore';
 import { Login } from './pages/login/login';
 import { Register } from './pages/register/register';
 import { Dashboard } from './pages/dashboard/dashboard';
+import { Oneway } from './learn/oneway/oneway';
 
 export const routes: Routes = [
     {
@@ -40,6 +41,10 @@ export const routes: Routes = [
     {
         path: "contact",
         component: Contact
+    },
+    {
+        path: "learn",
+        component: Oneway
     },
     {
         path: "**",
